@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "npmName": "editor",
   "keywords": [],
   "author": "Manish Singh",
   "license": "ISC"

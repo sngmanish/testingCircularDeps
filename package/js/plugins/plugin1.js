@@ -2,7 +2,7 @@
   typeof exports === "object" && typeof module !== "undefined"
     ? factory(require("editor"))
     : typeof define === "function" && define.amd
-    ? define(["@test/editor"], factory)
+    ? define(["editor"], factory)
     : factory(global.Editor);
 })(this, function (E) {
   console.log({ E });
